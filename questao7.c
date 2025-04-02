@@ -13,7 +13,7 @@ int main(){
     printf("Digite os pesos das notas: \n");
     scanf("%i %i %i %i", &peso1, &peso2, &peso3, &peso4);
 
-    mediaFinal = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) + (nota4 * peso4)) / 4;
+    mediaFinal = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) + (nota4 * peso4)) / (peso1 + peso2 + peso3 + peso4);
 
     printf("Média Final: %.2f\n", mediaFinal);
 
